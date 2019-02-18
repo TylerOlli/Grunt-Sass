@@ -1,0 +1,12 @@
+body {
+  background-color: #eee; }
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #343434;
+  display: block; }
+  main h1 {
+    font-size: 2em; }
+
+/*# sourceMappingURL=styles.css.map */

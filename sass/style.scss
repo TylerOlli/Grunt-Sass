@@ -1,0 +1,23 @@
+@import 'base';
+
+body {
+	background-color: $background-color;
+	font-family: $font-family;
+}
+
+main {
+	max-width: $content-width;
+  	margin: 0 auto;
+	color: $font-color;
+  	display: block;
+	h1 {
+		font-size: $header-size;
+	}
+	img {
+	width: 250px;
+	display: none;
+		&.logo-show {
+			display: block;
+		}
+	}
+}
