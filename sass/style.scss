@@ -1,5 +1,6 @@
 @import 'base';
 @import 'shapes';
+@import 'media-queries';
 
 body {
 	background-color: $background-color;
@@ -54,11 +55,4 @@ main {
 				height: 180px;
 			}
 	}
-}
-
-
-@media screen and (max-width: 665px) {
-  .flex-container-image {
-    flex-direction: column !important;
-  }
 }
