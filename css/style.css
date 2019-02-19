@@ -94,3 +94,10 @@ main {
       height: auto; }
     main img#grunt-logo {
       height: 180px; }
+
+@media screen and (max-width: 665px) {
+  .flex-container-image {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important; } }
