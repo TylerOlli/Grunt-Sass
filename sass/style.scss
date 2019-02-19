@@ -28,6 +28,12 @@ main {
 			.logo-show {
 				display: inline;
 			}
+			.flex-container-child {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+	  		width: 250px;
+	  	}
 
   	}
 
@@ -37,17 +43,15 @@ main {
 	}
 
 	img {
-		width: 250px;
 		display: none;
 			&.logo-show {
-				display: inline;
+				display: block;
 			}
 			&#sass-logo{
-				height: 200px;
+				height: auto;
 			}
 			&#grunt-logo {
-				height: 200px;
-				padding-left: 10px;
+				height: 180px;
 			}
 	}
 }
