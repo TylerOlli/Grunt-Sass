@@ -30,6 +30,14 @@
   bottom: 5px;
   z-index: 9; }
 
+.grow {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+
+.grow:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
+
 @media screen and (max-width: 665px) {
   .flex-container-image {
     -webkit-box-orient: vertical !important;
@@ -97,6 +105,16 @@ main {
     main img.logo-show {
       display: block; }
     main img#sass-logo {
-      height: auto; }
+      height: auto;
+      -webkit-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out; }
+    main img#sass-logo:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
     main img#grunt-logo {
-      height: 180px; }
+      height: 180px;
+      -webkit-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out; }
+    main img#grunt-logo:hover {
+      -webkit-transform: rotate(20deg);
+              transform: rotate(20deg); }

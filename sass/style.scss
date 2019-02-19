@@ -50,9 +50,17 @@ main {
 			}
 			&#sass-logo{
 				height: auto;
+				transition: all .2s ease-in-out;
+			}
+			&#sass-logo:hover {
+				transform: scale(1.1);
 			}
 			&#grunt-logo {
 				height: 180px;
+				transition: all .2s ease-in-out;
+			}
+			&#grunt-logo:hover {
+				transform: rotate(20deg);
 			}
 	}
 }
