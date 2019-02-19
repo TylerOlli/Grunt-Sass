@@ -1,4 +1,5 @@
 @import 'base';
+@import 'shapes';
 
 body {
 	background-color: $background-color;
@@ -9,15 +10,44 @@ main {
 	max-width: $content-width;
   	margin: 0 auto;
 	color: $font-color;
-  	display: block;
+  	.flex-container {
+  		display: flex;
+	  	flex-direction: column;
+	  	align-items: center;
+	  	justify-content: center;
+  	}
+  	.flex-container-image {
+  		display: flex;
+	  	flex-direction: row;
+	  	justify-content: center;
+	  	align-items: center;
+	  	flex-wrap: wrap;
+	  		.circle {
+			display: none;
+			}
+			.logo-show {
+				display: inline;
+			}
+
+  	}
+
 	h1 {
 		font-size: $header-size;
+		text-align: center;
 	}
+
 	img {
-	width: 250px;
-	display: none;
-		&.logo-show {
-			display: block;
-		}
+		width: 250px;
+		display: none;
+			&.logo-show {
+				display: inline;
+			}
+			&#sass-logo{
+				height: 200px;
+			}
+			&#grunt-logo {
+				height: 200px;
+				padding-left: 10px;
+			}
 	}
 }
